@@ -10,6 +10,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	println("http://localhost:8000/")
 	http.HandleFunc("/", hello)
 	http.ListenAndServe(":8000", nil)
 }
