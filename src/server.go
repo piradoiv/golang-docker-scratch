@@ -1,3 +1,6 @@
+// This source code comes from https://thenewstack.io/building-a-web-server-in-go/
+// All kudos to them :)
+
 package main
 
 import (
