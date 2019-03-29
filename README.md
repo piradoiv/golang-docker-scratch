@@ -1,0 +1,1 @@
+# Golang Docker Scratch image
