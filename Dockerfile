@@ -7,4 +7,5 @@ RUN cd /src && CGO_ENABLED=0 go build -o /server
 FROM scratch
 COPY --from=build /server /server
 ENTRYPOINT ["/server"]
+EXPOSE 8000
 
